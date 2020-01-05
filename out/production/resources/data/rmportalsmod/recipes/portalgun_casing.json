@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#QQ",
+    "Q  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_button"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "rmportalsmod:portalgun_casing",
+    "count": 1
+  }
+}

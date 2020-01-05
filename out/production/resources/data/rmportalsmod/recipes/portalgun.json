@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "G"
+  ],
+  "key": {
+    "#": {
+      "item": "rmportalsmod:portalfluid_tube"
+    },
+    "G": {
+      "item": "rmportalsmod:portalgun_casing"
+    }
+  },
+  "result": {
+    "item": "rmportalsmod:portalgun",
+    "count": 1
+  }
+}

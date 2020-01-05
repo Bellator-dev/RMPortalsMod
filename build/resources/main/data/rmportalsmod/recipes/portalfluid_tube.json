@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "P",
+    "B"
+  ],
+  "key": {
+    "#": {
+      "item": "rmportalsmod:glass_tube"
+    },
+    "P": {
+      "item": "rmportalsmod:isotopenugget"
+    },
+    "B": {
+      "item": "rmportalsmod:portalfluid_bucket"
+    }
+  },
+  "result": {
+    "item": "rmportalsmod:portalfluid_tube",
+    "count": 1
+  }
+}
