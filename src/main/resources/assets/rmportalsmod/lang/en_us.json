@@ -1,0 +1,12 @@
+{
+  "item.rmportalsmod.glass_tube": "Glass Tube",
+  "item.rmportalsmod.portalfluid_bucket": "Portal Fluid Bucket",
+  "item.rmportalsmod.portalfluid_tube": "Portal Fluid Tube",
+  "item.rmportalsmod.portalgun": "Portal Gun",
+  "item.rmportalsmod.portalgun_casing": "Portal Gun Casing",
+  "item.rmportalsmod.isotopenugget": "Isotope 322 Nugget",
+  "block.rmportalsmod.isotope322": "Isotope 322 Ore",
+
+  "_comment": "Creative Tabs",
+  "itemGroup.rmportalsmod": "RMPortals Mod"
+}
