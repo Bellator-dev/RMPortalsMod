@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1e01e3-05ae-4e4b-81e1-295b274465d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellatorhd/rmportalsmod/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bellatorhd/rmportalsmod/items/ModItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
