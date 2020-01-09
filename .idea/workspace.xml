@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1e01e3-05ae-4e4b-81e1-295b274465d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test world/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test world/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellatorhd/rmportalsmod/items/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bellatorhd/rmportalsmod/items/Battery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellatorhd/rmportalsmod/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bellatorhd/rmportalsmod/items/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/rmportalsmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/rmportalsmod/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/rmportalsmod/textures/item" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
@@ -154,11 +143,18 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.json" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Images" timestamp="1578096651457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Images/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578096651457" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578598635879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578598635879" />
     <state x="697" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578252431100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
