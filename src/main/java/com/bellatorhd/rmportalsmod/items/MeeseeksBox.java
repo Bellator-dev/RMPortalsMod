@@ -12,4 +12,4 @@ public class MeeseeksBox extends Item {
         setRegistryName("meeseeks_box");
 
     }
-}//htuituihj
+}/
