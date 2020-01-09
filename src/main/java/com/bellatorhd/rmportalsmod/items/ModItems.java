@@ -30,5 +30,5 @@ public class ModItems {
 
     @ObjectHolder("rmportalsmod:battery")
     public static Battery BATTERY;
-
+//test
 }
