@@ -13,4 +13,3 @@ public class Battery extends Item {
     }
 }
 
-// fixed profile picture for the git bot
