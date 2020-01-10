@@ -63,8 +63,7 @@ public class RMPortalsMod {
             event.getRegistry().register(new PortalGun().setRegistryName("portalgun"));
             event.getRegistry().register(new SimpleRickCookies().setRegistryName("simplerick_cookies"));
             event.getRegistry().register(new MeeseeksBox());
-            event.getRegistry().register(new Battery().setRegistryName("battery" +
-                    ""));
+            event.getRegistry().register(new Battery().setRegistryName("battery"));
         }
     }
 }
