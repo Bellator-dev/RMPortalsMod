@@ -28,7 +28,4 @@ public class ModItems {
     @ObjectHolder("rmportalsmod:meeseeks_box")
     public static MeeseeksBox MEESEEKSBOX;
 
-    @ObjectHolder("rmportalsmod:battery")
-    public static Battery BATTERY;
-
 }
