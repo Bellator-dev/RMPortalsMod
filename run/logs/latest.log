@@ -1,8 +1,87 @@
-[10Jan2020 17:26:43.774] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication/]: Logging in with username & password
-[10Jan2020 17:26:44.821] [main/ERROR] [net.minecraftforge.userdev.LaunchTesting/]: Login failed!
-com.mojang.authlib.exceptions.InvalidCredentialsException: Invalid credentials. Invalid username or password.
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:77) ~[authlib-1.5.25.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication.logInWithPassword(YggdrasilUserAuthentication.java:78) ~[authlib-1.5.25.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication.logIn(YggdrasilUserAuthentication.java:61) ~[authlib-1.5.25.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.login(LaunchTesting.java:150) [forge-1.14.4-28.1.109_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:73) [forge-1.14.4-28.1.109_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+[10Jan2020 17:31:29.537] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication/]: Logging in with username & password
+[10Jan2020 17:31:30.626] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, BellatorHD, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.109, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\BellatorHD\.gradle\caches\forge_gradle\assets, --uuid, 4ee8bee258bb47728663b586404b14de, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[10Jan2020 17:31:30.630] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_201 by Oracle Corporation
+[10Jan2020 17:31:30.967] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[10Jan2020 17:31:33.525] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\BellatorHD\.gradle\caches\forge_gradle\assets, --uuid, 4ee8bee258bb47728663b586404b14de, --username, BellatorHD, --assetIndex, 1.14, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[10Jan2020 17:31:39.683] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: BellatorHD
+[10Jan2020 17:32:07.015] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[10Jan2020 17:32:07.068] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[10Jan2020 17:32:10.460] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.109, for MC 1.14.4 with MCP 20190829.143755
+[10Jan2020 17:32:10.460] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.109 Initialized
+[10Jan2020 17:32:19.898] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[10Jan2020 17:32:20.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rmportalsmod] Starting version check at http://myurl.me/
+[10Jan2020 17:32:20.690] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_201]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944) ~[?:1.8.0_201]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939) ~[?:1.8.0_201]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_201]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938) ~[?:1.8.0_201]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508) ~[?:1.8.0_201]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[?:1.8.0_201]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_201]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[?:1.8.0_201]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[?:1.8.0_201]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_201]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[10Jan2020 17:32:23.373] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10Jan2020 17:32:23.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.109 Target: 28.1.113
+[10Jan2020 17:32:31.728] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[10Jan2020 17:32:31.925] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[10Jan2020 17:32:31.926] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[10Jan2020 17:32:32.211] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[10Jan2020 17:32:33.230] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[10Jan2020 17:32:33.231] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[10Jan2020 17:32:33.231] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[10Jan2020 17:34:44.277] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Jan2020 17:34:44.278] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Jan2020 17:34:44.278] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Jan2020 17:34:44.279] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Jan2020 17:34:44.280] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Jan2020 17:34:44.756] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[10Jan2020 17:34:44.757] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[10Jan2020 17:34:44.920] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[10Jan2020 17:34:45.059] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[10Jan2020 17:34:45.585] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.4-28.1.109_mapped_snapshot_20190719-1.14.3-recomp.jar, main
+[10Jan2020 17:34:47.316] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[10Jan2020 17:34:49.681] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[10Jan2020 17:34:50.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jan2020 17:34:51.991] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Jan2020 17:34:51.991] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Jan2020 17:34:51.991] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Jan2020 17:34:51.991] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Jan2020 17:34:52.664] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[10Jan2020 17:34:53.470] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3085 ms
+[10Jan2020 17:34:53.980] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Jan2020 17:34:53.981] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Jan2020 17:34:56.737] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[10Jan2020 17:34:57.281] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: BellatorHD[local:E:48b0b3ae] logged in with entity id 215 at (-207.59056071020345, 4.0, 112.71708814042924)
+[10Jan2020 17:34:57.328] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[10Jan2020 17:34:57.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BellatorHD joined the game
+[10Jan2020 17:35:01.327] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[10Jan2020 17:35:01.370] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10Jan2020 17:35:01.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
+[10Jan2020 17:35:01.609] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 20 advancements
+[10Jan2020 17:36:21.563] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10Jan2020 17:36:21.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
+[10Jan2020 17:36:26.359] [Client thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[10Jan2020 17:36:26.374] [Client thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Started serving on 60977
+[10Jan2020 17:36:26.402] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Local game hosted on port 60977
+[10Jan2020 17:40:24.224] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[10Jan2020 17:40:24.271] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: BellatorHD lost connection: Disconnected
+[10Jan2020 17:40:24.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BellatorHD left the game
+[10Jan2020 17:40:24.287] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[10Jan2020 17:40:24.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Jan2020 17:40:24.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Jan2020 17:40:24.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Jan2020 17:40:24.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
+[10Jan2020 17:40:24.461] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test world): All chunks are saved
+[10Jan2020 17:40:24.478] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test world): All chunks are saved
