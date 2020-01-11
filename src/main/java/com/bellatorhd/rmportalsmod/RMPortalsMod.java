@@ -2,13 +2,19 @@ package com.bellatorhd.rmportalsmod;
 
 import com.bellatorhd.rmportalsmod.blocks.Isotope322;
 import com.bellatorhd.rmportalsmod.blocks.ModBlocks;
+<<<<<<< HEAD
+import com.bellatorhd.rmportalsmod.entities.MrMeeseeksEntity;
+=======
 import com.bellatorhd.rmportalsmod.config.Config;
+>>>>>>> 1bbdbb55960047e95f125ff977c690268502ee7c
 import com.bellatorhd.rmportalsmod.items.*;
 import com.bellatorhd.rmportalsmod.setup.ClientProxy;
 import com.bellatorhd.rmportalsmod.setup.IProxy;
 import com.bellatorhd.rmportalsmod.setup.ModSetup;
 import com.bellatorhd.rmportalsmod.setup.ServerProxy;
 import net.minecraft.block.Block;
+import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -77,5 +83,14 @@ public class RMPortalsMod {
             event.getRegistry().register(new MeeseeksBox());
             event.getRegistry().register(new Battery());
         }
+
+        @SubscribeEvent
+        public static void onEntityRegistry(final RegistryEvent.Register<EntityType<?>> event) {
+            event.getRegistry().register(EntityType.Builder.create(MrMeeseeksEntity::new, EntityClassification.CREATURE)
+                .size(1, 2)
+                .setShouldReceiveVelocityUpdates(false)
+                .build("mrmeeseeks").setRegistryName(RMPortalsMod.MODID. "mrmeeseeks"));
+        }
+
     }
 }
