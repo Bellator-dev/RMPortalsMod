@@ -6,15 +6,15 @@
       <env name="MCP_VERSION" value="20190829.143755" />
       <env name="FORGE_VERSION" value="28.1.109" />
       <env name="assetIndex" value="1.14" />
-      <env name="assetDirectory" value="C:\Users\BellatorHD\.gradle\caches\forge_gradle\assets" />
+      <env name="assetDirectory" value="C:\Users\Bruker\.gradle\caches\forge_gradle\assets" />
       <env name="nativesDirectory" value="F:\Minecraft Mods\RMPortalsMod\build\natives" />
       <env name="FORGE_GROUP" value="net.minecraftforge" />
       <env name="target" value="fmluserdevclient" />
       <env name="MC_VERSION" value="1.14.4" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
-    <module name="RMPortals-Mod.main" />
-    <option name="PROGRAM_PARAMETERS" value="--username jeanette_lindgaard_157@hotmail.com --password anny1234" />
+    <module name="RMPortalsMod.main" />
+    <option name="PROGRAM_PARAMETERS" value="--username lailand@online.no --password Nemomann12!" />
     <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump &quot;-Dos.name=Windows 10&quot; -Dos.version=10.0" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
     <method v="2">
