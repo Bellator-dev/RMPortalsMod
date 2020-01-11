@@ -7,3 +7,4 @@ public class ModBlocks {
     @ObjectHolder("rmportalsmod:isotope322")
     public static Isotope322 ISOTOPE322;
 }
+
