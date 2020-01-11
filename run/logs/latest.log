@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [11Jan2020 17:11:22.375] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication/]: Logging in with username & password
 [11Jan2020 17:11:23.714] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, BellatorHD, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.109, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\BellatorHD\.gradle\caches\forge_gradle\assets, --uuid, 4ee8bee258bb47728663b586404b14de, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
 [11Jan2020 17:11:23.717] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_201 by Oracle Corporation
@@ -95,3 +96,110 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 [11Jan2020 17:22:24.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
 [11Jan2020 17:22:24.243] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test world): All chunks are saved
 [11Jan2020 17:22:24.264] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test world): All chunks are saved
+=======
+[11jan2020 17:19:25.628] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication/]: Logging in with username & password
+[11jan2020 17:19:26.550] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, _Ovidius_, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.109, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Bruker\.gradle\caches\forge_gradle\assets, --uuid, 0da59e388af24a06b0fac184f0d8fe55, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[11jan2020 17:19:26.552] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_201 by Oracle Corporation
+[11jan2020 17:19:26.770] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[11jan2020 17:19:27.262] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Failed to find exploded resource mods.toml in directory F:\Minecraft Mods\RMPortalsMod\build\resources\main
+[11jan2020 17:19:28.409] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Bruker\.gradle\caches\forge_gradle\assets, --uuid, 0da59e388af24a06b0fac184f0d8fe55, --username, _Ovidius_, --assetIndex, 1.14, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[11jan2020 17:19:31.440] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: _Ovidius_
+[11jan2020 17:19:45.042] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[11jan2020 17:19:45.076] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[11jan2020 17:19:47.891] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.109, for MC 1.14.4 with MCP 20190829.143755
+[11jan2020 17:19:47.891] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.109 Initialized
+[11jan2020 17:19:52.527] [Client thread/WARN] [com.mojang.text2speech.NarratorWindows/]: ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x64': Can't obtain InputStream for win32-x86-64/SAPIWrapper_x64.dll
+ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x86': Can't obtain InputStream for win32-x86-64/SAPIWrapper_x86.dll
+
+[11jan2020 17:19:53.271] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[11jan2020 17:19:53.447] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11jan2020 17:19:53.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.109 Target: 28.1.114
+[11jan2020 17:19:57.243] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[11jan2020 17:19:57.442] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[11jan2020 17:19:57.443] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[11jan2020 17:19:57.646] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[11jan2020 17:19:58.422] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[11jan2020 17:19:58.423] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[11jan2020 17:19:58.424] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[11jan2020 17:20:05.240] [Client thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to 192.168.10.143, 53085
+[11jan2020 17:20:08.272] [Client thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[11jan2020 17:20:08.298] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world rmportalsmod:isotope322
+[11jan2020 17:20:08.304] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:glass_tube
+[11jan2020 17:20:08.304] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:isotope322
+[11jan2020 17:20:08.304] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:isotopenugget
+[11jan2020 17:20:08.305] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:meeseeks_box
+[11jan2020 17:20:08.306] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalfluid_bucket
+[11jan2020 17:20:08.306] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalfluid_tube
+[11jan2020 17:20:08.306] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalgun
+[11jan2020 17:20:08.306] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalgun_casing
+[11jan2020 17:20:08.306] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:simplerick_cookies
+[11jan2020 17:20:08.322] [Client thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	rmportalsmod:isotope322: 676
+
+[11jan2020 17:20:08.323] [Client thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	rmportalsmod:portalfluid_tube: 882
+	rmportalsmod:portalgun_casing: 880
+	rmportalsmod:isotopenugget: 878
+	rmportalsmod:isotope322: 877
+	rmportalsmod:glass_tube: 879
+	rmportalsmod:portalfluid_bucket: 881
+	rmportalsmod:simplerick_cookies: 884
+	rmportalsmod:portalgun: 883
+	rmportalsmod:meeseeks_box: 885
+
+[11jan2020 17:20:08.324] [Client thread/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Missing registry data for network connection:
+	minecraft:item: rmportalsmod:isotope322
+	minecraft:item: rmportalsmod:portalfluid_bucket
+	minecraft:item: rmportalsmod:portalgun_casing
+	minecraft:item: rmportalsmod:portalgun
+	minecraft:item: rmportalsmod:meeseeks_box
+	minecraft:item: rmportalsmod:portalfluid_tube
+	minecraft:item: rmportalsmod:simplerick_cookies
+	minecraft:item: rmportalsmod:glass_tube
+	minecraft:item: rmportalsmod:isotopenugget
+	minecraft:block: rmportalsmod:isotope322
+
+[11jan2020 17:20:08.324] [Netty Client IO #0/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Failed to load registry, closing connection.
+[11jan2020 17:20:08.325] [Netty Client IO #0/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Connection closed, not continuing handshake
+[11jan2020 17:20:26.559] [Client thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to 192.168.10.143, 53085
+[11jan2020 17:20:28.058] [Client thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[11jan2020 17:20:28.074] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world rmportalsmod:isotope322
+[11jan2020 17:20:28.079] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:glass_tube
+[11jan2020 17:20:28.079] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:isotope322
+[11jan2020 17:20:28.079] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:isotopenugget
+[11jan2020 17:20:28.080] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:meeseeks_box
+[11jan2020 17:20:28.081] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalfluid_bucket
+[11jan2020 17:20:28.081] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalfluid_tube
+[11jan2020 17:20:28.081] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalgun
+[11jan2020 17:20:28.081] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:portalgun_casing
+[11jan2020 17:20:28.081] [Client thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world rmportalsmod:simplerick_cookies
+[11jan2020 17:20:28.087] [Client thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	rmportalsmod:isotope322: 676
+
+[11jan2020 17:20:28.087] [Client thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	rmportalsmod:glass_tube: 879
+	rmportalsmod:isotopenugget: 878
+	rmportalsmod:portalfluid_tube: 882
+	rmportalsmod:simplerick_cookies: 884
+	rmportalsmod:meeseeks_box: 885
+	rmportalsmod:portalgun_casing: 880
+	rmportalsmod:isotope322: 877
+	rmportalsmod:portalgun: 883
+	rmportalsmod:portalfluid_bucket: 881
+
+[11jan2020 17:20:28.087] [Client thread/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Missing registry data for network connection:
+	minecraft:item: rmportalsmod:isotope322
+	minecraft:item: rmportalsmod:portalfluid_bucket
+	minecraft:item: rmportalsmod:portalgun_casing
+	minecraft:item: rmportalsmod:portalgun
+	minecraft:item: rmportalsmod:meeseeks_box
+	minecraft:item: rmportalsmod:portalfluid_tube
+	minecraft:item: rmportalsmod:simplerick_cookies
+	minecraft:item: rmportalsmod:glass_tube
+	minecraft:item: rmportalsmod:isotopenugget
+	minecraft:block: rmportalsmod:isotope322
+
+[11jan2020 17:20:28.088] [Netty Client IO #1/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Failed to load registry, closing connection.
+[11jan2020 17:20:28.088] [Netty Client IO #1/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Connection closed, not continuing handshake
+[11jan2020 17:20:30.182] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+>>>>>>> 5fa9d7e1a9ccfb1ea7ad42258c798d76cbccef63
