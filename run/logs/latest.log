@@ -71,3 +71,23 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 [11Jan2020 19:35:50.581] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
 [11Jan2020 19:35:50.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
 [11Jan2020 19:35:50.745] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 21 advancements
+[11Jan2020 19:47:40.914] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[11Jan2020 19:47:41.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
+[11Jan2020 20:47:58.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
+[11Jan2020 20:48:55.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BellatorHD: Set the time to 1000]
+[11Jan2020 20:48:55.912] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set the time to 1000
+[11Jan2020 20:49:38.214] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[11Jan2020 20:49:38.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
+[11Jan2020 20:54:02.681] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 42 advancements
+[11Jan2020 20:54:03.869] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 51 advancements
+[11Jan2020 20:54:25.473] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 55 advancements
+[11Jan2020 20:55:16.009] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[11Jan2020 20:55:16.069] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: BellatorHD lost connection: Disconnected
+[11Jan2020 20:55:16.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BellatorHD left the game
+[11Jan2020 20:55:16.099] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[11Jan2020 20:55:16.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Jan2020 20:55:16.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Jan2020 20:55:16.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Jan2020 20:55:16.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test world'/minecraft:overworld
+[11Jan2020 20:55:16.257] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test world): All chunks are saved
+[11Jan2020 20:55:16.279] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test world): All chunks are saved

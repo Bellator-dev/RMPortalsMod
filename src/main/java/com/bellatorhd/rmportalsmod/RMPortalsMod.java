@@ -2,6 +2,7 @@ package com.bellatorhd.rmportalsmod;
 
 import com.bellatorhd.rmportalsmod.blocks.Isotope322;
 import com.bellatorhd.rmportalsmod.blocks.ModBlocks;
+import com.bellatorhd.rmportalsmod.config.Config;
 import com.bellatorhd.rmportalsmod.items.*;
 import com.bellatorhd.rmportalsmod.setup.ClientProxy;
 import com.bellatorhd.rmportalsmod.setup.IProxy;
@@ -13,9 +14,13 @@ import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.ModLoader;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLPaths;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -29,9 +34,16 @@ public class RMPortalsMod {
     public static ModSetup setup = new ModSetup();
 
     private static final Logger LOGGER = LogManager.getLogger();
+    public static jdk.internal.instrumentation.Logger logger;
 
     public RMPortalsMod() {
-        // Register the setup method for modloading
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, Config.server_config);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.client_config);
+
+        Config.LoadConfig(Config.client_config, FMLPaths.CONFIGDIR.get().resolve("rmportalsmod-client.toml").toString());
+        Config.LoadConfig(Config.server_config, FMLPaths.CONFIGDIR.get().resolve("rmportalsmod-server.toml").toString());
+
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 
     }
