@@ -10,7 +10,7 @@ import java.io.File;
 
 @Mod.EventBusSubscriber
 public class Config {
-    private static final ForgeConfigSpec.Builder server_builder = new ForgeConfigSpec.Builder();
+   private static final ForgeConfigSpec.Builder server_builder = new ForgeConfigSpec.Builder();
     public static ForgeConfigSpec server_config;
 
     private static final ForgeConfigSpec.Builder client_builder = new ForgeConfigSpec.Builder();
