@@ -8,7 +8,9 @@ public class SimpleRickCookies extends Item {
     public SimpleRickCookies() {
         super(new Item.Properties()
                 .maxStackSize(16)
-                .group(RMPortalsMod.setup.itemGroup));
+                .group(RMPortalsMod.setup.itemGroup)
+
+        );
     }
 
 }
