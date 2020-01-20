@@ -3,14 +3,6 @@ package com.bellatorhd.rmportalsmod;
 import com.bellatorhd.rmportalsmod.blocks.Isotope322;
 import com.bellatorhd.rmportalsmod.blocks.ModBlocks;
 import com.bellatorhd.rmportalsmod.entities.MrMeeseeksEntity;
-<<<<<<< HEAD
-=======
->>>>>>> 1bbdbb55960047e95f125ff977c690268502ee7c
-=======
-
-import com.bellatorhd.rmportalsmod.config.Config;
-
->>>>>>> f5576b42b4d8b03b7fa60d9cb13a6e9c895f80c7
 import com.bellatorhd.rmportalsmod.items.*;
 import com.bellatorhd.rmportalsmod.setup.ClientProxy;
 import com.bellatorhd.rmportalsmod.setup.IProxy;
