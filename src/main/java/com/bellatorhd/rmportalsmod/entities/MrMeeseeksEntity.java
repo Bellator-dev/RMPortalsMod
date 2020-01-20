@@ -1,5 +1,6 @@
 package com.bellatorhd.rmportalsmod.entities;
 
+import net.minecraft.entity.AgeableEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.world.World;
@@ -14,5 +15,7 @@ public class MrMeeseeksEntity extends AnimalEntity {
 
     @Nullable
     @Override
-    public
+    public AgeableEntity createChild(AgeableEntity ageable) {
+        return null;
+    }
 }

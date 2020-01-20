@@ -2,10 +2,15 @@ package com.bellatorhd.rmportalsmod;
 
 import com.bellatorhd.rmportalsmod.blocks.Isotope322;
 import com.bellatorhd.rmportalsmod.blocks.ModBlocks;
-<<<<<<< HEAD
 import com.bellatorhd.rmportalsmod.entities.MrMeeseeksEntity;
+<<<<<<< HEAD
 =======
 >>>>>>> 1bbdbb55960047e95f125ff977c690268502ee7c
+=======
+
+import com.bellatorhd.rmportalsmod.config.Config;
+
+>>>>>>> f5576b42b4d8b03b7fa60d9cb13a6e9c895f80c7
 import com.bellatorhd.rmportalsmod.items.*;
 import com.bellatorhd.rmportalsmod.setup.ClientProxy;
 import com.bellatorhd.rmportalsmod.setup.IProxy;
@@ -31,7 +36,8 @@ import org.apache.logging.log4j.Logger;
 
 @Mod("rmportalsmod")
 public class RMPortalsMod {
-    // Directly reference a log4j logger.
+
+    public static final String MODID = "rmportalsmod";
 
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 
@@ -81,7 +87,7 @@ public class RMPortalsMod {
             event.getRegistry().register(EntityType.Builder.create(MrMeeseeksEntity::new, EntityClassification.CREATURE)
                 .size(1, 2)
                 .setShouldReceiveVelocityUpdates(false)
-                .build("mrmeeseeks").setRegistryName(RMPortalsMod.MODID. "mrmeeseeks"));
+                .build("mrmeeseeks").setRegistryName(RMPortalsMod.MODID, "mrmeeseeks"));
         }
 
     }
