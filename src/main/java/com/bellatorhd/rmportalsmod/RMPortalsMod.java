@@ -5,7 +5,6 @@ import com.bellatorhd.rmportalsmod.blocks.ModBlocks;
 <<<<<<< HEAD
 import com.bellatorhd.rmportalsmod.entities.MrMeeseeksEntity;
 =======
-import com.bellatorhd.rmportalsmod.config.Config;
 >>>>>>> 1bbdbb55960047e95f125ff977c690268502ee7c
 import com.bellatorhd.rmportalsmod.items.*;
 import com.bellatorhd.rmportalsmod.setup.ClientProxy;
@@ -20,7 +19,6 @@ import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.ModLoader;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -39,16 +37,10 @@ public class RMPortalsMod {
 
     public static ModSetup setup = new ModSetup();
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static jdk.internal.instrumentation.Logger logger;
 
     public RMPortalsMod() {
-
-        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, Config.server_config);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.client_config);
-
-        Config.LoadConfig(Config.client_config, FMLPaths.CONFIGDIR.get().resolve("rmportalsmod-client.toml").toString());
-        Config.LoadConfig(Config.server_config, FMLPaths.CONFIGDIR.get().resolve("rmportalsmod-server.toml").toString());
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 

@@ -3,7 +3,6 @@ package com.bellatorhd.rmportalsmod.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.PickaxeItem;
 
 public class Isotope322 extends Block {
 
